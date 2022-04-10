@@ -2,6 +2,8 @@
   "name": "Not So Minimal Light",
   "type": "light",
   "colors": {
+    "sideBar.background": "#f5f5f5",
+    "sideBar.foreground": "#525252",
     "editor.foreground": "#111111",
     "editor.background": "#f5f5f5",
     "activityBarBadge.background": "#a8a8a8",
@@ -21,6 +23,34 @@
       "scope": ["string"],
       "settings": {
         "foreground": "#1b64c4"
+      }
+    },
+    {
+      "name": "Built-in constant",
+      "scope": "constant.language",
+      "settings": {
+        "foreground": "#ff4271"
+      }
+    },
+    {
+      "name": "User-defined constant",
+      "scope": ["constant.character", "constant.other"],
+      "settings": {
+        "foreground": "#ff4271"
+      }
+    },
+    {
+      "name": "Keyword",
+      "scope": "keyword",
+      "settings": {
+        "foreground": "#ff4271"
+      }
+    },
+    {
+      "name": "Storage type",
+      "scope": "storage.type",
+      "settings": {
+        "foreground": "#ff4271"
       }
     }
   ]
