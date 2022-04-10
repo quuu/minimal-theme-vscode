@@ -3,7 +3,7 @@
   "type": "light",
   "colors": {
     "editor.foreground": "#111111",
-    "editor.background": "#e5e5e5",
+    "editor.background": "#f5f5f5",
     "activityBarBadge.background": "#a8a8a8",
     "sideBarTitle.foreground": "#242424"
   },
@@ -20,7 +20,7 @@
       "name": "String, Regex",
       "scope": ["string"],
       "settings": {
-        "foreground": "#89DDFF"
+        "foreground": "#1b64c4"
       }
     }
   ]
