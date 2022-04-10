@@ -1,0 +1,27 @@
+{
+  "name": "Not So Minimal Light",
+  "type": "light",
+  "colors": {
+    "editor.foreground": "#111111",
+    "editor.background": "#e5e5e5",
+    "activityBarBadge.background": "#a8a8a8",
+    "sideBarTitle.foreground": "#242424"
+  },
+  "tokenColors": [
+    {
+      "name": "Comment",
+      "scope": ["comment", "punctuation.definition.comment"],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#a1a1a1"
+      }
+    },
+    {
+      "name": "String, Regex",
+      "scope": ["string"],
+      "settings": {
+        "foreground": "#89DDFF"
+      }
+    }
+  ]
+}

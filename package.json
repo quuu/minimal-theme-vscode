@@ -21,6 +21,11 @@
         "label": "Not So Minimal",
         "uiTheme": "vs-dark",
         "path": "./themes/Minimal-color-theme.json"
+      },
+      {
+        "label": "Not So Minimal Light",
+        "uiTheme": "vs",
+        "path": "./themes/Minimal-color-theme-light.json"
       }
     ]
   }
